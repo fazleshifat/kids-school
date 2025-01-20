@@ -32,13 +32,14 @@ button {
     font-weight: bold;
     border-radius: 10rem;
 
-    
+
 }
 
-.button-2{
+.button-2 {
     background-color: black;
 }
-.button-2:hover{
+
+.button-2:hover {
     background-color: rgb(125, 112, 86);
 }
 
@@ -65,7 +66,7 @@ button {
     font-weight: 500;
 }
 
-.nav-link a:hover{
+.nav-link a:hover {
     color: black;
 }
 
@@ -90,14 +91,16 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.295);
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
-.hamburger img{
+
+.hamburger img {
     height: 30rem;
     width: 30rem;
     opacity: 60%;
 }
+
 .hamburger img:hover {
     opacity: 30%;
 }
@@ -112,7 +115,7 @@ button:hover {
 
 /* Hero section design */
 
-.hero-section{
+.hero-section {
     max-width: 1300rem;
     margin: 40rem auto;
     display: flex;
@@ -120,22 +123,23 @@ button:hover {
     align-items: center;
 }
 
-.hero-text h2{
+.hero-text h2 {
     font-size: 40rem;
-    margin:20rem 0;
+    margin: 20rem 0;
     font-weight: 800;
 }
-.hero-text p{
+
+.hero-text p {
     font-size: 16rem;
-    margin:20rem 0;
+    margin: 20rem 0;
     opacity: 80%;
 }
 
-.span-empowering{
+.span-empowering {
     color: orange;
 }
 
-.span-towards{
+.span-towards {
     color: blueviolet;
 }
 
@@ -151,7 +155,7 @@ button:hover {
 
     }
 
-    .logo img{
+    .logo img {
         width: 50rem;
         height: 50rem;
     }
@@ -168,7 +172,7 @@ button:hover {
         display: none;
     }
 
-    .hamburger{
+    .hamburger {
         display: block;
     }
 
@@ -176,5 +180,40 @@ button:hover {
         display: block;
     }
 
+    /* hero section for mobile */
+
+    .hero-section {
+        max-width: auto;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .hero-image img{
+        max-width: 430rem;
+        max-height: 320rem;
+    }
+
+    .hero-text h2 {
+        font-size: 30rem;
+        text-align: center;
+    }
+    
+    .hero-text p {
+        font-size: 13rem;
+        text-align: center;
+        margin: 0 20rem;
+    }
+
+    .hero-p-br{
+        display: none;
+    }
+
+    .hero-button{
+        display: flex;
+        justify-content: center;
+        margin-top: 20rem;
+    }
+    
 
 }
