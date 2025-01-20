@@ -1,0 +1,180 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+html {
+    font-size: 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: quicksand;
+
+}
+
+header {
+    max-width: 1300rem;
+    margin: 20rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+button {
+    height: 40rem;
+    width: 170rem;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 16rem;
+    font-weight: bold;
+    border-radius: 10rem;
+
+    
+}
+
+.button-2{
+    background-color: black;
+}
+.button-2:hover{
+    background-color: rgb(125, 112, 86);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 30rem;
+    text-transform: uppercase;
+    color: rgb(110, 63, 153);
+}
+
+.span-logo {
+    color: orangered;
+}
+
+.nav-link a {
+    font-size: 16rem;
+    text-decoration: none;
+    margin: 0 20rem;
+    font-weight: 500;
+}
+
+.nav-link a:hover{
+    color: black;
+}
+
+.nav-link-1 {
+    color: orange;
+}
+
+.nav-link-2 {
+    color: skyblue;
+}
+
+.nav-link-3 {
+    color: blueviolet;
+}
+
+.nav-link-4 {
+    color: rgba(39, 39, 93, 0.653);
+}
+
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.hamburger{
+    display: none;
+}
+.hamburger img{
+    height: 30rem;
+    width: 30rem;
+    opacity: 60%;
+}
+.hamburger img:hover {
+    opacity: 30%;
+}
+
+.header-underline {
+    height: 1rem;
+    background-color: orange;
+    border: none;
+    opacity: 60%;
+    display: none;
+}
+
+/* Hero section design */
+
+.hero-section{
+    max-width: 1300rem;
+    margin: 40rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text h2{
+    font-size: 40rem;
+    margin:20rem 0;
+    font-weight: 800;
+}
+.hero-text p{
+    font-size: 16rem;
+    margin:20rem 0;
+    opacity: 80%;
+}
+
+.span-empowering{
+    color: orange;
+}
+
+.span-towards{
+    color: blueviolet;
+}
+
+
+
+
+/* Responsive design for mobile view */
+
+@media only screen and (max-width: 500px) {
+    header {
+        max-width: auto;
+        margin: 20rem 20rem;
+
+    }
+
+    .logo img{
+        width: 50rem;
+        height: 50rem;
+    }
+
+    .logo h2 {
+        display: none;
+    }
+
+    .nav-link a {
+        display: none;
+    }
+
+    .nav-button button {
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .header-underline {
+        display: block;
+    }
+
+
+}
