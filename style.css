@@ -147,13 +147,11 @@ button:hover {
 /* Standard Curriculum Section Design */
 
 .standard-curriculum {
-    /* border: 2px solid black; */
     background-image: url("./assets/bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 1300rem;
     margin: 120rem auto 0;
-    /* padding: 40rem 40rem; */
 }
 
 .standard-curriculum h1 {
@@ -222,6 +220,38 @@ button:hover {
 .card-3 a{
     color: red;
 }
+
+.curriculum-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80rem;
+    margin-bottom: 80rem;
+    gap: 10rem;
+}
+ 
+.curriculum-arrow i{
+    background-color: orange;
+    font-size: 20rem;
+    color: white;
+    padding: 20rem;
+    border-radius: 60%;
+}
+
+.curriculum-arrow i:hover{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive design for mobile view */
 
 @media only screen and (max-width: 500px) {
@@ -291,5 +321,58 @@ button:hover {
         margin-top: 20rem;
     }
 
+
+    /* Curriculum Card section for mobile */
+
+
+    .standard-curriculum {
+        max-width: auto;
+        margin: auto;
+    }
+    
+    .standard-curriculum h1 {
+        margin-top: 80rem;
+        margin-bottom: -30rem;
+        font-size: 28rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .curriculum-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .curriculum-card {
+        width: auto;
+        text-align: center;
+        margin: 10rem;
+        background-color: aqua;
+        border-radius: 20rem;
+        padding: 50rem;
+    }
+
+    .card-1{
+        background: -webkit-linear-gradient(90deg, rgba(229, 233, 246, 0.502) 0%, rgba(92, 94, 230, 0.217) 100%);
+    
+    }
+    
+    .card-2{
+        background: -webkit-linear-gradient(90deg, rgba(229, 233, 246, 0.502) 0%, rgba(134, 241, 120, 0.473) 100%);
+    
+    }
+    
+    .card-3{
+        background: -webkit-linear-gradient(90deg, rgba(229, 233, 246, 0.502) 0%, rgba(109, 53, 212, 0.292) 100%);
+    
+    }
+    
+    .curriculum-arrow {
+        display: none;
+    }
+    
+    
+    
 
 }
