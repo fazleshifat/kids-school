@@ -144,8 +144,84 @@ button:hover {
 }
 
 
+/* Standard Curriculum Section Design */
+
+.standard-curriculum {
+    /* border: 2px solid black; */
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1300rem;
+    margin: 120rem auto 0;
+    /* padding: 40rem 40rem; */
+}
+
+.standard-curriculum h1 {
+    font-size: 40rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.curriculum-card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80rem;
+}
 
 
+.curriculum-card {
+    width: 350rem;
+    text-align: center;
+    padding: 40rem 40rem;
+    background-color: aqua;
+    border-radius: 20rem;
+
+}
+
+.card-1{
+    background: -webkit-linear-gradient(90deg, rgba(229, 233, 246, 0.502) 0%, rgba(92, 94, 230, 0.217) 100%);
+
+}
+
+.card-2{
+    background: -webkit-linear-gradient(90deg, rgba(229, 233, 246, 0.502) 0%, rgba(134, 241, 120, 0.473) 100%);
+
+}
+
+.card-3{
+    background: -webkit-linear-gradient(90deg, rgba(229, 233, 246, 0.502) 0%, rgba(109, 53, 212, 0.292) 100%);
+
+}
+
+
+.curriculum-card h3 {
+    font-size: 24rem;
+    margin-bottom: 20rem;
+    margin-top: 20rem;
+}
+
+.curriculum-card p {
+    font-size: 14rem;
+    opacity: 70%;
+    line-height: 2;
+    margin-bottom: 30rem;
+
+}
+.curriculum-card a {
+    font-size: 16rem;
+    margin-bottom: 30rem;
+    text-decoration: none;
+}
+
+.curriculum-card a:hover{
+    color: black;
+}
+.card-2 a{
+    color: orange;
+}
+.card-3 a{
+    color: red;
+}
 /* Responsive design for mobile view */
 
 @media only screen and (max-width: 500px) {
@@ -189,7 +265,7 @@ button:hover {
         flex-direction: column-reverse;
     }
 
-    .hero-image img{
+    .hero-image img {
         max-width: 430rem;
         max-height: 320rem;
     }
@@ -198,22 +274,22 @@ button:hover {
         font-size: 30rem;
         text-align: center;
     }
-    
+
     .hero-text p {
         font-size: 13rem;
         text-align: center;
         margin: 0 20rem;
     }
 
-    .hero-p-br{
+    .hero-p-br {
         display: none;
     }
 
-    .hero-button{
+    .hero-button {
         display: flex;
         justify-content: center;
         margin-top: 20rem;
     }
-    
+
 
 }
