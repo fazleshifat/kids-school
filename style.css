@@ -374,8 +374,9 @@ button:hover {
     border-radius: 20rem;
 }
 
-.story-card-2 img {
+.story-card-2-imageContent img {
     max-width: 280rem;
+    max-height: 170rem;
     border-top-right-radius: 20rem;
     border-top-left-radius: 20rem;
 }
@@ -699,8 +700,9 @@ footer {
         border-radius: 20rem;
     }
 
-    .story-card-2 img {
+    .story-card-2-imageContent img {
         max-width: 140rem;
+        max-height: 83rem;
         border-top-right-radius: 20rem;
         border-top-left-radius: 20rem;
     }
