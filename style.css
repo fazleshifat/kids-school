@@ -370,20 +370,27 @@ button:hover {
 /* Story card 2 */
 
 .story-card-2 {
-    width: 280rem;
+    width: 300rem;
     border-radius: 20rem;
 }
 
 .story-card-2-imageContent img {
-    max-width: 280rem;
+    max-width: 277rem;
     max-height: 170rem;
     border-top-right-radius: 20rem;
     border-top-left-radius: 20rem;
 }
 
-.story-card-2 h3 {
-    font-size: 17rem;
-    padding: 30rem 15rem;
+.story-images-rightsLeft img {
+    width: 270rem;
+    height: 170rem;
+
+}
+
+.story-card-2-textContent h3 {
+    font-size: 18rem;
+    width: 270rem;
+    padding: 20rem 30rem;
 }
 
 .story-card-2 p {
@@ -392,6 +399,8 @@ button:hover {
 }
 
 .story-card-2-textContent {
+    width: 270rem;
+    height: 100rem;
     background-color: white;
     border-bottom-right-radius: 20rem;
     border-bottom-left-radius: 20rem;
@@ -495,7 +504,13 @@ footer {
 
 
 
+
+
+
+
+
 /* Responsive design for mobile view */
+
 
 @media only screen and (max-width: 576px) {
     header {
@@ -707,10 +722,18 @@ footer {
         border-top-left-radius: 20rem;
     }
 
-    .story-card-2 h3 {
+    .story-card-2-textContent h3 {
         font-size: 13rem;
-        padding: 25rem 15rem;
-        /* width: 480rem; */
+        width: 140rem;
+        padding: 30rem 10rem;
+    }
+
+    .story-card-2-textContent {
+        width: 140rem;
+        height: 100rem;
+        background-color: white;
+        border-bottom-right-radius: 20rem;
+        border-bottom-left-radius: 20rem;
     }
 
     .story-card-2 p {
@@ -719,12 +742,6 @@ footer {
         /* width: 480rem; */
     }
 
-    .story-card-2-textContent {
-
-        background-color: white;
-        border-bottom-right-radius: 20rem;
-        border-bottom-left-radius: 20rem;
-    }
 
 
 
